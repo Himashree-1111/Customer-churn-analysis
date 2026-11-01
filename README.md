@@ -1,90 +1,17 @@
-Customer Churn Analysis
+## Key Findings
 
-Project Overview
+- **Overall churn:** 1,869 of 7,032 customers churned (26.58%); retention is 73.42%.
+- **Contract type is the strongest driver:** month-to-month churn is 42.7%, versus 11.3% for one-year and 2.8% for two-year contracts.
+- **New customers leave most:** churn is 47.7% in the first 12 months and drops steadily to 9.5% after 49+ months.
+- **Payment method:** electronic check customers churn at 45.3%, versus 15.3% to 19.2% for the other methods.
+- **Internet service:** fiber optic churn is 41.9%, versus 19.0% for DSL and 7.4% for customers with no internet service.
+- **Seniors:** senior citizens churn at 41.7%, versus 23.7% for non-seniors.
+- **Charges:** churn is highest in the "High" charge group (37.8%) and lowest in the "Low" group (10.9%). The "Very High" group (28.0%) is lower than "High", so the relationship isn't a simple rise.
 
-Customer Churn Analysis is a data analytics project that aims to understand customer behaviour and identify the factors that influence customer churn.
+## Recommendations
 
-The project uses Python, Pandas, NumPy and Matplotlib to clean, analyze and visualize customer data. An Excel report is also generated to present key performance indicators (KPIs) and analytical findings.
-
-Objectives
-
-- Analyze customer churn patterns.
-- Identify customer segments with high churn rates.
-- Understand the impact of contract types on churn.
-- Analyze customer tenure and monthly charges.
-- Examine churn across payment methods and internet services.
-- Generate meaningful business insights to support customer retention strategies.
-
-Tools & Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Microsoft Excel
-- Jupyter/Python IDLE
-
-Dataset
-
-IBM Telco Customer Churn Dataset
-
-The dataset contains customer information, including:
-
-- Customer demographics
-- Contract information
-- Monthly and total charges
-- Payment methods
-- Internet services
-- Customer tenure
-- Churn status
-
-Data Cleaning
-
-- Checked for missing values.
-- Removed duplicate records.
-- Converted TotalCharges into numeric format.
-- Handled missing values.
-- Prepared the dataset for analysis.
-
-Key Performance Indicators (KPIs)
-
-- Total Customers
-- Total Churned Customers
-- Churn Rate
-- Retained Customers
-- Average Monthly Charges
-
-Exploratory Data Analysis (EDA)
-
-The analysis includes:
-
-1. Churn Analysis by Contract Type
-2. Churn Analysis by Tenure
-3. Churn Analysis by Monthly Charges
-4. Churn Analysis by Payment Method
-5. Churn Analysis by Internet Service
-6. Churn Analysis by Senior Citizen Status
-
-Visualizations
-
-Six Matplotlib charts were created to understand customer churn patterns and identify important trends.
-
-The visualizations are available in the "charts" folder.
-
-Project Files
-
-- "customer_churn_analysis.py" – Python analysis code
-- "Telco-Customer-Churn.csv" – Original dataset
-- "Customer_Churn_Analysis_Report.xlsx" – Excel analysis report
-- "charts/" – Matplotlib visualizations
-
-Business Insights
-
-This project helps identify customer groups with higher churn risk and provides insights that can support businesses in improving customer retention, customer satisfaction and long-term relationships.
-
-Conclusion
-
-Customer Churn Analysis demonstrates the use of Python, data cleaning, exploratory data analysis, KPI calculation and data visualization to solve a real-world business problem.
-
-Created by: Himashree R.
-Role: Aspiring Data Analyst
+- Offer discounts or perks to move month-to-month customers onto one- or two-year contracts.
+- Run an onboarding and check-in program for customers in their first 12 months.
+- Encourage electronic check users to switch to automatic payment methods.
+- Investigate fiber optic service quality and pricing, since churn is more than double DSL.
+- Design a retention offer or support program for senior customers.
